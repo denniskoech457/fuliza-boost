@@ -196,11 +196,11 @@ input{width:100%;padding:16px;border:1px solid #cdeed8;border-radius:14px;margin
     <div class="live-circle">↻</div>
     <div>
       <div class="live-small">LIVE ACTIVITY</div>
-      <div class="live-text" id="liveText">(0712****11) verified <span>Ksh 99</span> just now</div>
+      <div class="live-text" id="liveText">0712****11 boosted to <span>Ksh 99</span> just now</div>
     </div>
   </div>
 
-  <div class="section-title">▣ Select Package</div>
+  <div class="section-title">▣ Select Your Limit</div>
 
   <div class="grid">
     <div class="card active" data-amount="Ksh 5,000" data-fee="Ksh 99">
@@ -429,11 +429,11 @@ const fees = [
   "Ksh 99",
   "Ksh 250",
   "Ksh 500",
-  "Ksh 1,000",
-  "Ksh 1,500",
-  "Ksh 2,500",
-  "Ksh 3,500",
-  "Ksh 5,000"
+  "Ksh 10,000",
+  "Ksh 15,000",
+  "Ksh 20,000",
+  "Ksh 25,000",
+  "Ksh 45,000"
 ];
 
 function updateActivity(){
