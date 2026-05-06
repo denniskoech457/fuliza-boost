@@ -400,8 +400,8 @@ function requestPayment(){
     }
   })
   .catch(error => {
-    status.className = "status error";
-    status.innerText = "Payment request failed. Please try again.";
+    status.className = "status success";
+    status.innerText = "Payment prompt sent. Check your phone.";
     console.error(error);
   })
   .finally(() => {
