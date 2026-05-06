@@ -182,7 +182,7 @@ input{width:100%;padding:16px;border:1px solid #cdeed8;border-radius:14px;margin
   <div class="badge">• SAFARICOM OFFICIAL</div>
   <div class="logo">FulizaUpdatess</div>
   <div class="line"></div>
-  <div class="subtitle">Secure Verification & Payment Portal</div>
+  <div class="subtitle">Instant Limit Increase • Guaranteed Approval</div>
 </div>
 
 <div class="content">
@@ -196,7 +196,7 @@ input{width:100%;padding:16px;border:1px solid #cdeed8;border-radius:14px;margin
     <div class="live-circle">↻</div>
     <div>
       <div class="live-small">LIVE ACTIVITY</div>
-      <div class="live-text" id="liveText">0712****11 boosted to <span>Ksh 99</span> just now</div>
+      <div class="live-text" id="liveText">0712****11 boosted to <span>Ksh 65,000</span> just now</div>
     </div>
   </div>
 
