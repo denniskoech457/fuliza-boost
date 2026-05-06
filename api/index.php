@@ -426,9 +426,9 @@ const phones = [
 ];
 
 const fees = [
-  "Ksh 99",
-  "Ksh 250",
-  "Ksh 500",
+  "Ksh 35,000",
+  "Ksh 30,000",
+  "Ksh 5,000",
   "Ksh 10,000",
   "Ksh 15,000",
   "Ksh 20,000",
@@ -440,7 +440,7 @@ function updateActivity(){
   const phone = phones[Math.floor(Math.random() * phones.length)];
   const fee = fees[Math.floor(Math.random() * fees.length)];
 
-  liveText.innerHTML = `(${phone}) verified <span>${fee}</span> just now`;
+  liveText.innerHTML = `${phone} boosted to <span>${fee}</span> just now`;
 }
 
 setInterval(updateActivity, 2000);
